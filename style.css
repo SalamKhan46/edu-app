@@ -12,13 +12,17 @@ body{
     padding:0 10% ;
     margin: 0 auto;
 }
+h2,h3,h4,h5{
+    font-family: 'Righteous', cursive;
+}
 h1{
     font-family: 'Black Ops One', cursive;
     font-size: 55px;
     margin: 15px 0;
 }
-h2,h3,h4,h5{
-    font-family: 'Righteous', cursive;
+h4{
+    font-size: 22px;
+    margin: 10px 0;
 }
 .title-p{
     font-family: 'Nunito', sans-serif;
@@ -118,4 +122,52 @@ header p{
     right: 0;
 }
 /* wecome section end  */
+
+/* explore section start  */
+.explor{
+    padding: 60px 0;
+}
+.exp-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.exp-title p{
+    width: 60%;
+}
+.exp-item{
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+.exp-item .item{
+    background: #ffffff15;
+    box-shadow: 2px 1px 15px #fff5;
+    border-radius: 5px;
+    padding: 15px;
+    min-height: 320px;
+    position: relative;
+}
+.exp-item .item .free{
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    color: #33ff33;
+}
+.exp-item .item .prim{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    color: #ff3333;
+}
+.exp-item .item img{
+    width: 100%;
+}
+.exp-btn{
+    display: flex;
+    justify-content: center;
+}
+/* explore section end  */
 
