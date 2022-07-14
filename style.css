@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #072546;
+    color: #fff;
+}
+.container{
+    max-width: 1400px;
+    padding:0 10% ;
+    margin: 0 auto;
+}
+h1{
+    font-family: 'Black Ops One', cursive;
+    font-size: 55px;
+    margin: 15px 0;
+}
+h2,h3,h4,h5{
+    font-family: 'Righteous', cursive;
+}
+.title-p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin: 15px 0;
+    color: #828288;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size:16px;
+    margin: 15px 0;
+    color: #c1c1c7;
+}
+.mdl-y{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    background: #5fff5f;
+    border-radius: 25px;
+    color: #828288;
+    display: inline-block;
+    margin: 10px 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    height: 90vh;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.4), #072546), url(pic/bann.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+header .content{
+    /* border: 1px solid;   */
+}
+header p{
+    width: 70%;
+}
+/* head section end  */
+
+/* welcome section start  */
+.wlcm{
+    padding: 60px 0;
+}
+.wlcm-txt{
+    width: 48%;
+}
+
+.wlcm-item{
+    margin: 20px 0;
+}
+.wlcm-item .icon{
+    width: 25%;
+}
+.wlcm-item .icon i{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #5fff5f6f;
+    color: #5fff5f;
+    font-size: 40px;
+}
+.wlcm-item .txt{
+    width: 75%;
+}
+.wlcm-img{
+    width: 48%;
+    position: relative;
+}
+.wlcm-img img{
+    width: 75%;
+    position: absolute;
+}
+.wlcm-img img:nth-child(2){
+    bottom: 10%;
+    left: 0;
+}
+.wlcm-img img:nth-child(1){
+    top: 10%;
+    right: 0;
+}
+/* wecome section end  */
+
